@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import GeneralForm from '../src/components/general-form/GeneralForm';
+import EducationForm from './components/education-form/EducationForm';
+import ExperienceForm from './components/experience-form/ExperienceForm';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className='forms'>
+            <GeneralForm />
+            <EducationForm />
+            <ExperienceForm />
+        </div>
     </div>
   );
 }
