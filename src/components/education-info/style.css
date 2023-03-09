@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    white-space: break-spaces;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+h2 {
+    margin-left: 1vw;
+    text-decoration: underline;
+}
+
+.edu-header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.step-content {
+    display: flex;
+    gap: 10px;
+}
