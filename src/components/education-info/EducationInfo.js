@@ -24,7 +24,7 @@ class EducationInfo extends React.Component {
                         </div>
                     </div>
                     
-                    <button onClick={() => this.props.editData(item.id)}>EDIT</button>
+                    <button className="edu-step-edit" onClick={() => this.props.editData(item.id)}>EDIT</button>
                 </li>
             )
             }

@@ -6,9 +6,11 @@
     align-items: center;
 }
 
-button {
+.data-edit {
     height: 30px;
     width: 100px;
+    background-color: dodgerblue;
+    border-radius: 10px;
 }
 
 .content {
@@ -16,6 +18,10 @@ button {
     display: flex;
     gap: 10px;
     white-space: break-spaces;
+    background-color: powderblue;
+    height: 20vh;
+    border-bottom: 1px solid;
+    align-items: center;
 }
 
 .values {
@@ -32,4 +38,12 @@ button {
 
 p {
     margin: 0;
+}
+
+.general-info {
+    background-color: whitesmoke;
+    border-left: 30px solid darkorange;
+    border-top-left-radius: 20px;
+    border-right: 30px solid darkorange;
+    border-top-right-radius: 20px;
 }

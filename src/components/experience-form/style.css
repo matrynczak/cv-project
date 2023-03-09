@@ -8,10 +8,8 @@ form {
 }
 
 .experience-form {
-    border: 2px dotted;
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    background-color: aliceblue;
+    grid-template-columns: 200px 5fr;
 }
 
 input[type="submit"] {

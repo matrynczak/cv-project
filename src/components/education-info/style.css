@@ -10,6 +10,7 @@ li {
     display: flex;
     justify-content: space-between;
     padding-right: 30px;
+    background-color: powderblue;
 }
 
 h2 {
@@ -21,7 +22,6 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding-right: 30px;
-    padding-top: 10px;
     align-items: center;
 }
 
@@ -29,3 +29,10 @@ h2 {
     display: flex;
     gap: 10px;
 }
+
+.education-info {
+    background-color: whitesmoke;
+    border-left: 30px solid darkorange;
+    border-right: 30px solid darkorange;
+}
+

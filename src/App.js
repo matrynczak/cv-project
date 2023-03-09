@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+        <h2 className='title'>CV template creator</h2>
         <div className='forms'>
             <GeneralForm />
             <EducationForm />
