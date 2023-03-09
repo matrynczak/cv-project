@@ -13,7 +13,7 @@ class GeneralInfo extends React.Component {
             <div className="general-info">
                 <div className="info-header">
                     <h2>General Information</h2> 
-                    <button onClick={() => this.props.editData()}>EDIT</button>
+                    <button className="data-edit" onClick={() => this.props.editData()}>EDIT</button>
                 </div>
                 
                 <div className="content">

@@ -1,3 +1,14 @@
 .forms {
     display: grid;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.App {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.title {
+    text-align: center;
+    background-color: burlywood;
 }

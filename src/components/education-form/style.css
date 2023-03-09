@@ -8,11 +8,8 @@ form {
 }
 
 .education-form {
-    border-left: 2px dotted;
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    border-right: 2px dotted;
-    background-color: aliceblue;
+    grid-template-columns: 200px 5fr;
 }
 
 input[type="submit"] {
@@ -22,4 +19,11 @@ input[type="submit"] {
 .save-edited-btn {
     height: 25px;
     width: 120px;
+}
+
+.edu-step-edit {
+    height: 30px;
+    width: 100px;
+    background-color: dodgerblue;
+    border-radius: 10px;
 }

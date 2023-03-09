@@ -10,6 +10,7 @@ li {
     display: flex;
     gap: 10px;
     padding-right: 30px;
+    background-color: powderblue;
 }
 
 h2 {
@@ -20,4 +21,19 @@ h2 {
 .step-content {
     display: flex;
     gap: 10px;
+}
+
+.experience-info {
+    background-color: whitesmoke;
+    border-left: 30px solid darkorange;
+    border-bottom-left-radius: 20px;
+    border-right: 30px solid darkorange;
+    border-bottom-right-radius: 20px;
+}
+
+.exp-step-edit {
+    height: 30px;
+    width: 100px;
+    background-color: dodgerblue;
+    border-radius: 10px;
 }
