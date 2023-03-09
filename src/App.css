@@ -12,3 +12,49 @@
     text-align: center;
     background-color: burlywood;
 }
+
+input[type="submit"] {
+    margin-top: 5px;
+}
+
+.save-edited-btn {
+    margin-top: 5px;
+    height: 25px;
+    width: 120px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px dotted;
+    padding: 20px;
+    gap: 5px;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    white-space: break-spaces;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    background-color: powderblue;
+}
+
+h2 {
+    margin-left: 1vw;
+    text-decoration: underline;
+}
+
+.step-content {
+    display: flex;
+    gap: 10px;
+}
